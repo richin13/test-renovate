@@ -10,6 +10,13 @@ packages = [{include = "test_renovate"}]
 python = "^3.10"
 
 
+[tool.poetry.group.dev.dependencies]
+Sphinx = "^5.3.0"
+mypy = "^0.982"
+isort = "^5.10.1"
+pylint = "^2.15.4"
+black = "^22.10.0"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
